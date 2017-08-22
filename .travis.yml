@@ -1,0 +1,10 @@
+language: c
+dist: trusty
+compiler:
+- gcc
+os:
+- linux
+script:
+  - cd gardenOS_src_0.11.0
+  - chmod +x compile_linux_gcc.sh
+  - ./compile_linux_gcc.sh
